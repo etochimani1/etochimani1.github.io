@@ -1,3 +1,204 @@
-body {
-    background-color: brown;
+Body {
+    background-color:#D2B48C ;
+
 }
+
+h1{
+    text-align: center;
+    font-family: "Times New Roman", 'Times New Roman', Times, serif;
+    font-family: 'Play', sans-serif;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Play', Times, serif;
+    color: white;
+    font-size: 45px;
+}
+img{
+    position: static;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    border: 5px solid teal;
+
+    
+    
+    
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+
+.navbar-toggler{
+    background-color:#D2B48C white;
+
+
+}
+
+p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Play' , 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Play',  'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+h4{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-family:  'play', 'Times New Roman', Times, serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+.container {
+position: relative;
+}
+.image {
+    display: block;
+    width: 50%;
+    height: auto;
+}
+.overlay {
+    position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  a {
+      color: white;
+      text-align: center;
+      
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color:tan;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: tan;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(245, 239, 239, 0.979);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  h5{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Play', Times, serif;
+    color: white;
+    font-size: 45px;
+
+  }
+
+
+  #mainSection {
+      margin-right: 10vw;
+      margin-left: 10vw;
+      padding: 5vw;
+      border: 5px dotted white;
+      border-radius: 10px;
+      color: white;
+      font-family: 'Times New Roman', Times, serif;
+    font-family: 'Play', Times, serif;
+
+  }
+
+    .btn-success {
+        color: white;
+        background-color: tan;
+        border: solid;
+    }
+
+    .footer{
+        background:teal;
+        color: white;
+        font-size: 20px;
+        border:solid;
+    }
+
+    .background1{
+      background-image: linear-gradient(teal, tan);
+    }
+
+    #example1{
+      background:url("../myPortfolio/assets4/a76ce92b7459134f0aaee5b60f518df1.png");
+      background-position: right;
+      background-size: 200px;
+      background-repeat: no-repeat, repeat;
+      
+      
+
+    }
